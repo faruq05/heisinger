@@ -25,6 +25,7 @@ a {
     --cs-text: #000;
     --cs-box: #777777;
     --cs-border: #ccc;
+    --cs-primary: #3B5998;
 }
 
 h1 {
@@ -63,9 +64,16 @@ p {
     font-family: 'HelveticaNeue';
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.4;
     margin-bottom: 16px;
 }
+
+.subtitle{
+    font-size: 13px;
+    color: var(--cs-primary);
+    font-weight: 600;
+    font-family: 'HelveticaNeue';
+}
+
 
 /* header starst */
 .social_media a {
@@ -211,8 +219,58 @@ p {
     color: var(--cs-text);
 }
 
-.herohr{
+.herohr {
     margin-top: 15px;
 }
+
 /* hero ends */
 
+/* para_one start */
+.CUT {
+    background: url(../images/menu_pattern.png) repeat center top #777777;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 10px;
+    border: 5px solid #fff;
+    text-align: center;
+}
+
+.CUT h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.CUT h5 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.review{
+    margin-bottom: 30px;
+}
+
+.review p{
+    margin: 0;
+}
+.review p i{
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: 'HelveticaNeue';
+}
+
+.services{}
+
+
+.service_list{}
+
+.service_list li{
+    font-family: 'HelveticaNeue';
+    font-size: 16px;
+    font-weight: normal;
+    list-style: inside;
+}
+
+.service_list li span{
+    color: #ff0000;
+}
