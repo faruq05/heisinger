@@ -58,6 +58,7 @@
 
     .rmvblock {
         width: 50%;
+        margin-bottom: 20px;
     }
 
     .fb_page {
@@ -75,6 +76,14 @@
         padding: 20px;
     }
 
+    .review_para{
+        display: none;
+    }
+
+    .revp{
+        display: block;
+    }
+
     .address_tab {
         border: 0;
     }
@@ -89,6 +98,6 @@
 
 @media(max-width:425px) {
     .fb_page {
-        width: 50%;
+        width: 100%;
     }
 }
